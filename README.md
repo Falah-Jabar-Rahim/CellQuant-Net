@@ -42,7 +42,7 @@
 
 <p align="justify">  </p>
 
-Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S266652122500122X?via%3Dihub)
+Check out the paper: [Paper]
 
 # Setting Up the Pipeline:
 
@@ -52,6 +52,7 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 - Python version: 3.9 (using conda environments)
 - Anaconda version 23.7.4
 2. Steps to Set Up the Pipeline:
+- Open terminal 
 - `cd ~/Desktop`
 - Bash `git clone https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images.git CellQuant-Net`
 - `cd CellQuant-Net`
