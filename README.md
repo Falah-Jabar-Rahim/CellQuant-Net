@@ -60,7 +60,7 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 - `conda activate cellquantnet`
 - `python verify_installation.py`
 
-- # Demo:
+# Demo:
 
 
 
