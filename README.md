@@ -1,5 +1,5 @@
 # CellQuant-Net:End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images
-![WSI-QA](./Figs/Fig.1.png)
+![WSI-QA](./Figs/Fig1.png)
 
 
 
