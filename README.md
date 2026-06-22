@@ -65,7 +65,7 @@ Check out the paper: [Paper]
 
 - Downlaod a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
 - Place the downloaded WSI in the input folder
-- Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type tnmi_20x.pth`
+- Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
 
 
 ## Training Datasets
@@ -79,12 +79,10 @@ Check out the paper: [Paper]
 | NuCLS | Single-organ |  20× |
 | PanopTILs | Single-organ |  40× |
 | SegPath | Multi-organ |  40× |
-| TNMI-20x | Single-organ |  20× |
-| TNMI-40x | Single-organ |  40× |
+| TNMI20x | Single-organ |  20× |
+| TNMI40x | Single-organ |  40× |
 
-Summary: Trained on 9 datasets spanning both single-organ and multi-organ cohorts at 20× and 40× magnifications.
 
-Summary: Trained on 9 datasets spanning both single-organ and multi-organ cohorts at 20× and 40× magnifications.
 
   
 # Datasets:
