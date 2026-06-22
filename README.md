@@ -62,8 +62,10 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 
 # Demo:
 
-downlaod: 
-https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776
+- Downlaod: [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
+- put the WSI in the input folder
+- run the command `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type tnmi_20x.pth`
+
 
 
 
@@ -72,7 +74,8 @@ https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776
 # Datasets:
 
 - Contact the corresponding author to access the datasets described in the paper
-- The datasets (only tiles and segmentation masks) are available for research purposes only
+- The datasets (only tiles and segmentation masks) are available for research purposes onlypython run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type tnmi_20x.pth
+
 
 # Pretrained Weights:
 
