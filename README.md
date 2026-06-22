@@ -52,6 +52,13 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 - Python version: 3.9 (using conda environments)
 - Anaconda version 23.7.4
 2. Steps to Set Up the Pipeline:
+- `cd ~/Desktop`
+- `git clone https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images.git CellQuant-Net`
+- `cd CellQuant-Net`
+- `chmod +x install.sh`
+- `./install.sh`
+- `conda activate cellquantnet`
+- 
 - Download the pipeline to your Desktop
 - Navigate to the downloaded pipeline folder
 - Right-click within the pipeline folder and select Open Terminal
