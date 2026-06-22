@@ -1,4 +1,4 @@
-# CellQuant
+# CellQuan-Net
 ![WSI-QA](./Figs/Fig1.png)
 
 
