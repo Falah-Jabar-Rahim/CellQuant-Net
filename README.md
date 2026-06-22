@@ -53,7 +53,7 @@ Check out the paper: [Paper](https://www.sciencedirect.com/science/article/pii/S
 - Anaconda version 23.7.4
 2. Steps to Set Up the Pipeline:
 - `cd ~/Desktop`
-- `git clone https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images.git CellQuant-Net`
+- Bash `git clone https://github.com/Falah-Jabar-Rahim/CellQuant-Net-End-to-End-Nuclei-Quantification-in-H-E-Whole-Slide-Images.git CellQuant-Net`
 - `cd CellQuant-Net`
 - `chmod +x install.sh`
 - `./install.sh`
