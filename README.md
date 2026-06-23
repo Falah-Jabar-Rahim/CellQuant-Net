@@ -129,21 +129,7 @@ For each WSI, the CP-Net module generates:
 | `connectivity_edges.csv` | Cell-to-cell connectivity graph edges. |
 | `qupath_cells_connectivity.geojson` | Connectivity graph exported for visualization in QuPath. |
 
-
-- Place your Whole Slide Image (WSI) into the `test_wsi` folder
-- The pre-trained weights for artifact detection are available in the `pretrained_ckpt` folder, while the weights for pen-marker removal are located in the `Ink_Removal/pre-trained` folder
-- In the terminal execute:
-  `python test_wsi.py`
-
-- After running the inference, you will obtain the following outputs in `test_wsi` folder:
-    - A thumbnail image of WSI
-    - A thumbnail image of WSI with regions of interest (ROI) identified
-    - A segmentation mask highlighting segmented regions of the WSI [Qualifed tissue: green, fold: red, blur: orange, and background: black]
-    - A segmentation mask highlighting only qualified tissue regions of the WSI [background:0, qualified tissue:1]
-    - Excel files contain statistics on identified artifacts
-    - A folder named Selected_tiles containing qualified tiles
-
-  
+Note: this pipline is shoud not be used for clinical decision making 
 
 # Acknowledgment:
 
@@ -153,7 +139,10 @@ Some parts of this pipeline were adapted from work on [GitHub](https://github.co
 
 
 
+
+
 # Contact:
 
 If you have any questions or comments, please feel free to contact: falah.rahim@unn.no
 
+Note: This pipeline is intended for research and AI-assisted analysis only. At this stage, the AI model provides predictions and analytical outputs, not clinical decisions, and should not be used for patient diagnosis, treatment, prognosis, or clinical decision-making.
