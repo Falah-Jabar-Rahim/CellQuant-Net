@@ -66,7 +66,7 @@ Check out the paper: [Paper]
 - Place the downloaded WSI in the `input` folder
 - Obtain the pretrained model weights for WSI-QA and CP-Net, then place the CP-Net weights in `CP-Net/weights/` and the WSI-QA weights in `WSI_QA/pretrained_ckpt/`
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
-- After running CellQuant-Net, all results are saved in the `output` directory
+- After running CellQuant-Net, all results are saved in the `output` folder
 
 
 # 🎥 Watch the Demo:
