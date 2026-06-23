@@ -85,9 +85,12 @@ Check out the paper: [Paper]
 
 Contact the corresponding author to request access to the pre-trained models
 
-# Output Structure
 
-After running CellQuant-Net, all results are saved in the output directory:
+
+run the CellQuant-Net that iterate the WSI images in the input folder and genertae the output i te out put folder
+
+# Output Structure
+Place the WSIs in the input folder. Download the pretrained model weights for WSI-QA and CP-Net, then place the CP-Net weights in CP-Net/weights/ and the WSI-QA weights in WSI_QA/pretrained_ckpt/. After running CellQuant-Net, all results are saved in the output directory:
 
 ### Quality Assessment (QA)
 ```text
