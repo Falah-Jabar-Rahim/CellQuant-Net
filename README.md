@@ -61,7 +61,7 @@ Check out the paper: [Paper]
 - `conda activate cellquantnet`
 - `python verify_installation.py`
 
-# Inference:
+# Quick Test:
 - Downlaod a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
 - Place the downloaded WSI in the input folder
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
@@ -84,13 +84,6 @@ Check out the paper: [Paper]
 | TNMI40x | Single-organ |  40× |
 
 Contact the corresponding author to request access to the pre-trained models
-
-
-# Pretrained Weights:
-
-- Download the pretrained weights from this link: [Model weights](https://huggingface.co/jwtyar/WSI-SmartTiling/tree/main)
-- Place the artifact detection weights in the `pretrained_ckpt` folder, and the pen-marking detection and removal weights in the `/Ink_Removal/pre-trained` folder
-
 
 # Inference:
 
