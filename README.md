@@ -83,13 +83,7 @@ Check out the paper: [Paper]
 | TNMI20x | Single-organ |  20× |
 | TNMI40x | Single-organ |  40× |
 
-
-
-  
-# Datasets:
-
-- Contact the corresponding author to access the datasets described in the paper
-- The datasets (only tiles and segmentation masks) are available for research purposes onlypython run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type tnmi_20x.pth
+Contact the corresponding author to request access to the pre-trained models
 
 
 # Pretrained Weights:
