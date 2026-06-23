@@ -63,7 +63,11 @@ Check out the paper: [Paper]
 
 # Demo:
 
-[Watch the installation tutorial](Figs/Demo.mp4)
+[![Installation Tutorial](Figs/Demo.png)](Figs/Demo.mp4)
+
+
+
+
 
 - Downlaod a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
 - Place the downloaded WSI in the input folder
