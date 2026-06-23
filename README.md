@@ -62,7 +62,7 @@ Check out the paper: [Paper]
 - `python verify_installation.py`
 
 # Quick Test:
-- Downlaod a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
+- Download a [test WSI](https://portal.gdc.cancer.gov/files/5bd34bab-6a75-4d62-ab9d-0ada84414776)
 - Place the downloaded WSI in the input folder
 - Run CellQuant-Net: `python run_cellquant_net.py  --cpu_workers 32  --batch_size 128 --cell_connectivity   --model_type TNMI20x.pth`
 
@@ -145,4 +145,4 @@ Some parts of this pipeline were adapted from work on [GitHub](https://github.co
 
 If you have any questions or comments, please feel free to contact: falah.rahim@unn.no
 
-Note: This pipeline is intended for research and AI-assisted analysis only. At this stage, the AI model provides predictions and analytical outputs, not clinical decisions, and should not be used for patient diagnosis, treatment, prognosis, or clinical decision-making.
+Note: This pipeline is intended for research and AI-assisted analysis only. At this stage, the AI model provides predictions and analytical outputs, not clinical decisions.
