@@ -74,19 +74,19 @@ Check out the paper: [Paper]
 
 
 # Pre-trained Models
-| Dataset | Type | Magnification |
+| Model | Type | Magnification |
 |----------|--------|---------------|
-| PanNuke | Multi-organ |  40× |
-| CoNSeP | Single-organ |  40× |
-| ILCD | Single-organ |  40× |
-| Lizard | Single-organ |  20× |
-| NuCLS | Single-organ |  20× |
-| PanopTILs | Single-organ |  40× |
-| SegPath | Multi-organ |  40× |
-| TNMI20x | Single-organ |  20× |
-| TNMI40x | Single-organ |  40× |
+| PanNuke.pth | Multi-organ |  40× |
+| CoNSeP.pth | Single-organ |  40× |
+| ILCD.pth | Single-organ |  40× |
+| Lizard.pth | Single-organ |  20× |
+| NuCLS.pth | Single-organ |  20× |
+| PanopTILs.pth | Single-organ |  40× |
+| SegPath.pth | Multi-organ |  40× |
+| TNMI20x.pth | Single-organ |  20× |
+| TNMI40x.pth | Single-organ |  40× |
 
-Contact the corresponding author to request access to the pre-trained models for WSI-QA and CP-Net models 
+CP-Net was trained on multiple public and private datasets to support diverse downstream digital pathology applications. Contact the corresponding author to request access to the pre-trained models for WSI-QA and CP-Net models.
 
 # Output Structure
 Place the WSIs in the input folder. Download the pretrained model weights for WSI-QA and CP-Net, then place the CP-Net weights in CP-Net/weights/ and the WSI-QA weights in WSI_QA/pretrained_ckpt/. After running CellQuant-Net, all results are saved in the output directory:
