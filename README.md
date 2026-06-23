@@ -90,6 +90,7 @@ Contact the corresponding author to request access to the pre-trained models
 After running CellQuant-Net, all results are saved in the output directory:
 
 1. Quality Assessment (QA)
+Plain text
 output/
 └── QA/
     ├── WSI1/
@@ -97,8 +98,6 @@ output/
     ├── ...
     ├── WSI_Summary.xlsx
 	
-</p>
- </p>
 
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
 - The pre-trained weights for artifact detection are available in the `pretrained_ckpt` folder, while the weights for pen-marker removal are located in the `Ink_Removal/pre-trained` folder
