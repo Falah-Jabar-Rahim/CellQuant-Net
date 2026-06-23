@@ -100,41 +100,22 @@ output/
 ```
 For each WSI, the QA module generates:
 
-File/Folder
+### Quality Assessment (QA) Outputs
 
-Description
-
-Qualified/
-
-High-quality image tiles selected for analysis.
-
-Qualified_H/
-
-Hematoxylin (H-channel) version of the qualified tiles.
-
-Unqualified/
-
-Tiles excluded due to excessive background, blur, folds, or other artifacts.
-
-*_seg.png
-
-WSI-level tissue and artifact segmentation map.
-
-*_thumbnail.png
-
-WSI thumbnail image.
-
-*_thumbnail_roi.png
-
-Thumbnail highlighting the selected tissue regions.
-
-*_stats.xlsx
-
-Tile-level and WSI-level quality assessment statistics.
-
-WSI_Summary.xlsx
-
+| File/Folder | Description |
+|-------------|-------------|
+| `Qualified/` | High-quality image tiles selected for analysis. |
+| `Qualified_H/` | Hematoxylin (H-channel) version of the qualified tiles. |
+| `Unqualified/` | Tiles excluded due to excessive background, blur, folds, or other artifacts. |
+| `*_seg.png` | WSI-level tissue and artifact segmentation map. |
+| `*_thumbnail.png` | WSI thumbnail image. |
+| `*_thumbnail_roi.png` | Thumbnail highlighting the selected tissue regions. |
+| `*_stats.xlsx` | Tile-level and WSI-level quality assessment statistics. |
+| `WSI_Summary.xlsx` | Summary statistics for all processed WSIs. |
 Summary statistics for all processed WSIs.
+
+
+
 - Place your Whole Slide Image (WSI) into the `test_wsi` folder
 - The pre-trained weights for artifact detection are available in the `pretrained_ckpt` folder, while the weights for pen-marker removal are located in the `Ink_Removal/pre-trained` folder
 - In the terminal execute:
