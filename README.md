@@ -129,7 +129,7 @@ For each WSI, the CP-Net module generates:
 | `connectivity_edges.csv` | Cell-to-cell connectivity graph edges. |
 | `qupath_cells_connectivity.geojson` | Connectivity graph exported for visualization in QuPath. |
 
-Note: this pipline is shoud not be used for clinical decision making 
+# Qupath Visualization 
 
 # Acknowledgment:
 
