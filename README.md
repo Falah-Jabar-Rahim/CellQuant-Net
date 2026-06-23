@@ -145,4 +145,5 @@ Some parts of this pipeline were adapted from work on [GitHub](https://github.co
 
 If you have any questions or comments, please feel free to contact: falah.rahim@unn.no
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Note: This pipeline is intended for research and AI-assisted analysis only. At this stage, the AI model provides predictions and analytical outputs, not clinical decisions.
