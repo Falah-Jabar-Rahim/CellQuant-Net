@@ -93,7 +93,7 @@ For each WSI, the CP-Net module generates:
 
 
 # Intrence Time 
-the CellQuant-Net infrence time for 2 WSIs, one: 20x W≠31871 H≠25199, and othe one  40x, W≠44125, H≠70507 is about 
+The CellQuant-Net pipeline processed two WSIs, including a 20× WSI (31,871 × 25,199 pixels) and a 40× WSI (44,125 × 70,507 pixels), in approximately 24 min (1,447s) on a single NVIDIA GeForce RTX 4090 (24 GB VRAM, CUDA 12.8).
 
 ![WSI-QA](./Figs/Fig2.png)
 
