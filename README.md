@@ -2,7 +2,7 @@
 ![WSI-QA](./Figs/Fig1.png)
 <p align="justify"> Accurate nuclei detection and classification in hematoxylin and eosin (H&E) whole-slide images (WSIs) is a key task in computational pathology, particularly for quantitative analysis of the tumor microenvironment. However, this task remains highly challenging due to variations in nuclei morphology, staining procedures, scanners, organs, magnifications, and WSI artifacts. In addition, many existing pipelines rely on computationally demanding architectures and post-processing procedures, making gigapixel WSI analysis time-consuming. In this work, CellPriorNet (CP-Net) is proposed, an efficient nuclei detection and classification pipeline that utilizes a lightweight convolutional neural network architecture and hematoxylin (H) channel prior information to enhance nuclei-aware feature learning. Extensive benchmarking was conducted against state-of-the-art pipelines on 8 public and private datasets (total:~10.4M nuclei) obtained from different organs, scanners, magnifications, and clinical centers. Experimental results demonstrate that CP-Net achieves comparable performance while significantly reducing inference time. Furthermore, CellQuant-Net was introduced–an end-to-end nuclei quantification pipeline–that integrates a quality assessment (QA) model to exclude regions with artifacts, followed by CP-Net, and a nuclei connectivity analysis to compute nuclei quantitative metrics. </p>
 
-Check out the paper: [!(https://arxiv.org/abs/2607.00802)]
+Check out the paper: [![(https://arxiv.org/abs/2607.00802)]]
 
 # Setting Up the Pipeline:
 
